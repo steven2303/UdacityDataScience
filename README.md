@@ -24,7 +24,6 @@ The analysis was conducted using Python 3.8, and the required packages are liste
 
 To install the dependencies, run the following command:
 
-Copy code
 ```python
 pip install -r requirements.txt
 ```
