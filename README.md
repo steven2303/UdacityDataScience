@@ -13,17 +13,19 @@ The analysis revealed several factors contributing to student dropout, including
 ### **Conclusion**
 The findings of this analysis have important implications for policymakers, universities, and students. By addressing the underlying causes of student dropout and providing adequate support services, universities can improve their graduation rates and help students achieve their academic goals.
 
-Repository Contents
+### **Repository Contents**
 - **data/:** This folder contains the datasets used in the analysis.
 - **notebooks/:** This folder contains the Jupyter notebooks used for data cleaning, analysis, and visualization.
 - **reports/:** This folder contains the final report summarizing the findings of the analysis.
 - **README.md:** This file.
-Requirements
-The analysis was conducted using Python 3.8, and the required packages are listed in the requirements.txt file.
+-
+### **Requirements**
+The analysis was conducted using Python 3.8, and the required packages are listed in the **requirements.txt** file.
 
 To install the dependencies, run the following command:
 
 Copy code
 pip install -r requirements.txt
-License
+
+### **License**
 This project is licensed under the MIT License. Feel free to use and modify this code for your projects.
