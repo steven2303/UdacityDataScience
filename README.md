@@ -1,17 +1,11 @@
 # **University Dropout Analysis**
-This repository contains an analysis of university dropout rates and its causes. The project aims to explore the factors contributing to student dropout and propose solutions to address this issue.
+This repository contains an analysis of university dropout students. The analysis aims to explore some factors contributing to student dropout.
 
 ### **Data Sources**
-The data used in this analysis was collected from various sources, including academic journals, official reports, and surveys. The data includes variables such as demographic information, academic performance, financial aid, and Cancel changesstudent support services.
+The data used in this analysis was collected from an anonymous university. However, it is important to note that access to and usage of institutional data should be done in accordance with the necessary permissions and in full compliance with data protection and privacy regulations.
 
 ### **Analysis**
-The analysis includes descriptive statistics and exploratory data analysis techniques to identify trends and patterns in the data. We also used regression analysis to examine the relationship between various factors and the likelihood of student dropout.
-
-### **Results**
-The analysis revealed several factors contributing to student dropout, including financial difficulties, academic challenges, and personal issues. The results also showed that students who received financial aid and had access to student support services were less likely to drop out.
-
-### **Conclusion**
-The findings of this analysis have important implications for policymakers, universities, and students. By addressing the underlying causes of student dropout and providing adequate support services, universities can improve their graduation rates and help students achieve their academic goals.
+The analysis includes descriptive statistics and exploratory data analysis techniques to identify trends and patterns in the data.
 
 ### **Repository Contents**
 - **data/:** This folder contains the datasets used in the analysis.
