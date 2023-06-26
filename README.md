@@ -1,26 +1,27 @@
 # **University Dropout Analysis**
-This repository contains an analysis of university dropout students. The analysis aims to explore some factors contributing to student dropout.
 
-### **Data Sources**
-The data used in this analysis was collected from an anonymous university. However, it is important to note that access to and usage of institutional data should be done in accordance with the necessary permissions and in full compliance with data protection and privacy regulations.
+### **Requirements**
+The analysis was conducted using Python 3.9, and the required packages are listed below:
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+No additional installations beyond the Anaconda distribution of Python and Jupyter notebooks.
 
-### **Analysis**
-The analysis includes descriptive statistics and exploratory data analysis techniques to identify trends and patterns in the data.
+### **Project Motivation**
+The motivation behind this project is the increasing concern surrounding university dropout rates. Every year many students end up leaving their studies without finishing their degree programs. And you know what? It's not just about their future, but it also affects society as a whole.
 
 ### **Repository Contents**
 - **data/:** This folder contains the datasets used in the analysis.
-- **notebooks/:** This folder contains the Jupyter notebooks used for data cleaning, analysis, and visualization.
-- **reports/:** This folder contains the final report summarizing the findings of the analysis.
-- **README.md:** This file.
+- **notebooks/:** This folder contains the Jupyter notebooks used for data cleaning, analysis, and visualizations.
+- **README.MD:** This file.
 
-### **Requirements**
-The analysis was conducted using Python 3.8, and the required packages are listed in the **requirements.txt** file.
+### **Analysis**
+Results available in Medium Blog Post.
 
-To install the dependencies, run the following command:
+### **Licensing, Authors, Acknowledgements, etc.**
+Results available in [Medium Blog Post]([https://www.exampleuniversity.com](https://medium.com/p/ff717fcfa570/edit))
 
-```python
-pip install -r requirements.txt
-```
+Students must have a GitHub repository for their project. The repository must have a README.md file that communicates the libraries used, the motivation for the project, the files in the repository with a small description of each, a summary of the results of the analysis, and necessary acknowledgments. Students should not use another student's code to complete the project, but they may use other references on the web including StackOverflow and Kaggle to complete the project.
 
-### **License**
-This project is licensed under the MIT License. Feel free to use and modify this code for your projects.
+This repository contains an analysis of university dropout students. The analysis aims to explore some factors contributing to student dropout.
