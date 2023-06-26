@@ -17,11 +17,7 @@ The motivation behind this project is the increasing concern surrounding univers
 - **README.MD:** This file.
 
 ### **Analysis**
-Results available in Medium Blog Post.
-
-### **Licensing, Authors, Acknowledgements, etc.**
 Results available in [Medium Blog Post](https://medium.com/p/ff717fcfa570/edit)
 
-Students must have a GitHub repository for their project. The repository must have a README.md file that communicates the libraries used, the motivation for the project, the files in the repository with a small description of each, a summary of the results of the analysis, and necessary acknowledgments. Students should not use another student's code to complete the project, but they may use other references on the web including StackOverflow and Kaggle to complete the project.
-
-This repository contains an analysis of university dropout students. The analysis aims to explore some factors contributing to student dropout.
+### **Licensing, Authors, Acknowledgements, etc.**
+This project is licensed under the MIT License. Feel free to use and modify this code for your projects.
