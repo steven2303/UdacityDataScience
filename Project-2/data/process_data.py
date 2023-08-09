@@ -45,9 +45,10 @@ def clean_data(df):
     for column in categories:
         # set each value to be the last character of the string
         categories[column] = categories[column].astype(str).str.slice(-1)
-
         # convert column from string to numeric
         categories[column] = categories[column].astype(int)
+        # replace 2s by 1s
+        categories[column] = categories[column].replace(2,1)
     # drop categories column
     df = df.drop(columns = ['categories'],axis = 1)
     # concat original dataframe and categories data
