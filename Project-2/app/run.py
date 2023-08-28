@@ -26,11 +26,11 @@ def tokenize(text):
     return clean_tokens
 
 # load data
-engine = create_engine('sqlite:///../data/YourDatabaseName.db')
-df = pd.read_sql_table('YourTableName', engine)
+engine = create_engine('sqlite:///../data/DisasterResponse.db')
+df = pd.read_sql_table('disaster_category_message', engine)
 
 # load model
-model = joblib.load("../models/your_model_name.pkl")
+model = joblib.load("../models/classifier.pkl")
 
 
 # index webpage displays cool visuals and receives user input text for model
@@ -65,7 +65,37 @@ def index():
             }
         }
     ]
-    
+
+    # Create a new visualization for the distribution of message categories
+    category_counts = df.iloc[:, 4:].sum()
+    category_names = list(category_counts.index)
+    category_distribution = [
+        {
+            'data': [
+                {
+                    'x': category_names, 
+                    'y': category_counts, 
+                    'type': 'bar',
+                    'marker': {
+                        'color': 'Viridis'}
+                        }
+            ],
+            'layout': {
+                'title': 'Distribution of Message Categories',
+                'xaxis': {
+                    'title': 'Category', 
+                    'tickangle': -45, 
+                    'automargin': True
+                },
+                'yaxis': {
+                    'title': 'Count'
+                }
+            }
+    }]
+
+    # Append the new visualization to the existing graphs list
+    graphs.extend(category_distribution)
+
     # encode plotly graphs in JSON
     ids = ["graph-{}".format(i) for i, _ in enumerate(graphs)]
     graphJSON = json.dumps(graphs, cls=plotly.utils.PlotlyJSONEncoder)
