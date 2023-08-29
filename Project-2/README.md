@@ -5,7 +5,7 @@
 Follow these steps to set up your database, train the model, and run the web app.
 
 1. To run the ETL pipeline that cleans and stores data in the database:
-   ```shell python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+   ```shell python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db```
    
 2. To run the ML pipeline that trains the classifier and saves it:
    ```shell
