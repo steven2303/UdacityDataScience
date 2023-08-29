@@ -1,5 +1,7 @@
 # Disaster Response Pipeline Project
 
+The Disaster Response Pipeline Project aims to build a web application that can classify disaster-related messages into different categories, enabling quick and effective response during emergencies. The project involves data processing, machine learning model training, and a user-friendly web interface to interact with the model.
+
 ### Instructions:
 
 Follow these steps to set up your database, train the model, and run the web app.
