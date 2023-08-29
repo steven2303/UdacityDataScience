@@ -46,8 +46,8 @@ Follow these steps to set up your database, train the model, and run the web app
     - **classifier.pkl** is the trained model saved as a pickle file.
 
 ### Usage
-    The homepage displays visualizations related to disaster message data.
-    Users can enter a message in the input form to classify its category based on the trained model.
+The homepage displays visualizations related to disaster message data.  
+Users can enter a message in the input form to classify its category based on the trained model.
 
 ### Acknowledgments
-    This project is part of the Udacity Data Science Nanodegree program.
+This project is part of the Udacity Data Science Nanodegree program.
