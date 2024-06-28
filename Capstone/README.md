@@ -1,4 +1,4 @@
-**# Harnessing Data for Academic Success: Predictive Analytics in Digital Education**
+# **Harnessing Data for Academic Success: Predictive Analytics in Digital Education**
 
 ### **Requirements**
 The analysis was conducted using Python 3.10, and the required packages are listed below:
